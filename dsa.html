@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponce</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="main_content"> 
+        <div id="header">
+            <h1>Maxene's Website<i class="fa-solid fa-crown"></i></h1>
+        </div>
+        <div id="navigation">
+            <div>
+                <a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Log in</a>
+            </div>
+          <div>
+                <a href="home.html"><i class="fa-solid fa-house"></i> Home</a>
+            </div>
+            <div>
+                <a href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
+            </div>
+            <div>
+                <a href="about.html"><i class="fa-solid fa-address-card"></i> About </a>
+            </div>
+            <div>
+                <a href="help.html"><i class="fa-solid fa-handshake-angle"></i> Help Page</a>
+            </div>
+            <div>
+                <a href="exit.html"><i class="fa-jelly-fill fa-regular fa-xmark"></i>Exit Point</a>
+            </div>
+          </div>
+        <div id="content">
+             <h1>Queue, Stack, and User Interface</h1>
+    <button id="queue-btn">Queue Operations</button>
+    <button id="stack-btn">Stack Operations</button>
+    <button id="user-interface-btn">User Interface</button>
+        <div id="output"></div>
+        </div>
+        <div id="footer">
+            <div id="footer_content">
+        <div><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a></div><br>
+        <div><a href="https://www.Instagram.com/explore"><i class="fa-brands fa-instagram"></i>Instagram</a></div><br>
+        <div><a href="https://accounts.google.com/v3/signin/identifier?ds"><i class="fa-brands fa-tiktok"></i>Tiktok</a></div><br> 
+        </div>
+            <div id="footer_text">
+                
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
+
+<button onclick="exitPage()">Exit</button>
+
+<script>
+function exitPage() {
+    if (confirm("Are you sure you want to exit?")) {
+        window.location.href = "index.html";
+    }
+}
+
+</script>
+<script src="script.js"></script>
